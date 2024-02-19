@@ -26,4 +26,4 @@ jobs:
     - name: Build
       run: dotnet build --no-restore ./backend/MedReminder/MedReminder
     - name: Test
-      run: dotnet test --no-build --verbosity normal
+      run: dotnet test --no-build --verbosity normal ./backend/MedReminder/MedReminder
